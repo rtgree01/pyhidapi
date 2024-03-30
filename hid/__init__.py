@@ -8,15 +8,15 @@ __all__ = ['HIDException', 'DeviceInfo', 'Device', 'enumerate', 'BusType']
 
 hidapi = None
 library_paths = (
-    'libhidapi-hidraw.so',
-    'libhidapi-hidraw.so.0',
-    'libhidapi-libusb.so',
-    'libhidapi-libusb.so.0',
-    'libhidapi-iohidmanager.so',
-    'libhidapi-iohidmanager.so.0',
-    'libhidapi.dylib',
-    'hidapi.dll',
-    'libhidapi-0.dll'
+    '/config/deps/libhidapi-hidraw.so',
+    '/config/deps/libhidapi-hidraw.so.0',
+    '/config/deps/libhidapi-libusb.so',
+    '/config/deps/libhidapi-libusb.so.0',
+    '/config/deps/libhidapi-iohidmanager.so',
+    '/config/deps/libhidapi-iohidmanager.so.0',
+    '/config/deps/libhidapi.dylib',
+    '/config/deps/hidapi.dll',
+    '/config/deps/libhidapi-0.dll'
 )
 
 for lib in library_paths:
